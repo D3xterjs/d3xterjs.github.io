@@ -1,3 +1,8 @@
-div {
-  background-color: '#2C3539';
+header, body, footer {
+  color: white;
+  background-color: #B6B6B4;
+}
+
+h1, h2, a, .wrapper {
+  color: white;
 }
