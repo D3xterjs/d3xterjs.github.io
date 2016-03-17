@@ -1,0 +1,18 @@
+<head>
+  <script src="/bower_components/d3/d3.js"></script>
+  <link rel="stylesheet" href="/bower_components/d3xter/css/style.css">
+  <script src="/bower_components/d3xter/js/lib.js" charset="utf-8"></script>
+</head>
+<body>
+<script type="text/javascript">
+  var hist = new D3xter().hist(randomData());
+
+  // generate random data
+  function randomData() {
+    var data = [];
+    for (var i = 0; i < 25; i++) { data.push(Math.random()) };
+    return data;
+  };
+  //
+</script>
+</body>

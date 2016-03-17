@@ -1,0 +1,25 @@
+<head>
+  <script src="/bower_components/d3/d3.js"></script>
+  <link rel="stylesheet" href="/bower_components/d3xter/css/style.css">
+  <script src="/bower_components/d3xter/js/lib.js" charset="utf-8"></script>
+</head>
+<body>
+<script type="text/javascript">
+var myBar = new D3xter().bar({
+  labels: ["A", "B", "C"],
+  groups: ["first", "second", "third"],
+  datasets: [
+    {
+      values: [1, 2, 3],
+      color: 'red'
+    },
+    {
+      values: [4, 3, 1],
+    },
+    {
+      values: [2, 2, 5],
+    }
+  ]
+})
+</script>
+</body>
