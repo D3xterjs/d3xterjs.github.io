@@ -14,9 +14,9 @@ layout: default
 - [Timeline](#timeline)
 - [Bar Chart](#bar)
 - [Histogram](#histogram)
-- [Pie](#pie)
+- [Pie Chart](#pie)
 - [Configuration](#configuration)
-- [Extension](#extension)
+- [Extension with D3](#extension)
 
 ## Plot
 <a name="plot" />
