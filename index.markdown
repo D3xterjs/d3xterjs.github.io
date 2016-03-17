@@ -32,13 +32,13 @@ layout: default
 <a name="plot" />
 
 
-
 ## Timeline
 <a name="timeline" />
 
 
 ## Bar Chart
 <a name="bar" />
+<iframe height='550' width='750' src="./charts/bar.html"></iframe>
 
 
 ## Histogram
