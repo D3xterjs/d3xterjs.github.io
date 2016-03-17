@@ -5,21 +5,9 @@
 </head>
 <body>
 <script type="text/javascript">
-var myBar = new D3xter().bar({
-  labels: ["A", "B", "C"],
-  groups: ["first", "second", "third"],
-  datasets: [
-    {
-      values: [1, 2, 3],
-      color: 'red'
-    },
-    {
-      values: [4, 3, 1],
-    },
-    {
-      values: [2, 2, 5],
-    }
-  ]
-})
+  new D3xter().pie({
+    values: [1, 2, 3, 4],
+    labels: ['A', 'B', 'C', 'D']
+  });
 </script>
 </body>

@@ -5,21 +5,11 @@
 </head>
 <body>
 <script type="text/javascript">
-var myBar = new D3xter().bar({
-  labels: ["A", "B", "C"],
-  groups: ["first", "second", "third"],
-  datasets: [
-    {
-      values: [1, 2, 3],
-      color: 'red'
-    },
-    {
-      values: [4, 3, 1],
-    },
-    {
-      values: [2, 2, 5],
-    }
-  ]
-})
+  new D3xter().timeline([
+    { date: '1914-7-28', label: 'WW1' },
+    { date: '1939', label: 'WW2' },
+    { date: '1950-1-1', label: 'The Fifties'},
+    { date: '1950-1-1', label: 'A Date Collision'},
+  ])
 </script>
 </body>

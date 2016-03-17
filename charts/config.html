@@ -5,21 +5,24 @@
 </head>
 <body>
 <script type="text/javascript">
-var myBar = new D3xter().bar({
+var config = {
+  xLab: 'Groups',
+  yLab: 'Heights',
+  title: 'My Bar Chart',
+  height: 500,
+  width: 700,
+  legend: false
+};
+
+var myBar = new D3xter(config).bar({
   labels: ["A", "B", "C"],
   groups: ["first", "second", "third"],
   datasets: [
-    {
-      values: [1, 2, 3],
-      color: 'red'
-    },
-    {
-      values: [4, 3, 1],
-    },
-    {
-      values: [2, 2, 5],
-    }
+    { values: [1, 2, 3] },
+    { values: [4, 3, 1] },
+    { values: [2, 2, 5] }
   ]
-})
+});
+
 </script>
 </body>

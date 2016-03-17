@@ -5,21 +5,14 @@
 </head>
 <body>
 <script type="text/javascript">
-var myBar = new D3xter().bar({
-  labels: ["A", "B", "C"],
-  groups: ["first", "second", "third"],
-  datasets: [
-    {
-      values: [1, 2, 3],
-      color: 'red'
-    },
-    {
-      values: [4, 3, 1],
-    },
-    {
-      values: [2, 2, 5],
-    }
-  ]
-})
+  var hist = new D3xter().hist(randomData());
+
+  // generate random data
+  function randomData() {
+    var data = [];
+    for (var i = 0; i < 25; i++) { data.push(Math.random()) };
+    return data;
+  };
+  //
 </script>
 </body>

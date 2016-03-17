@@ -1,0 +1,32 @@
+<head>
+  <script src="/bower_components/d3/d3.js"></script>
+  <link rel="stylesheet" href="/bower_components/d3xter/css/style.css">
+  <script src="/bower_components/d3xter/js/lib.js" charset="utf-8"></script>
+</head>
+<body>
+<script type="text/javascript">
+// make chart
+var myPlot = new D3xter().plot({
+  datasets: [
+    {
+      x: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      y: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    }
+  ]
+})
+
+// extend with D3 syntax
+var svg = myPlot.canvas;
+
+svg.selectAll('circle')
+   .style('fill', 'red')
+   .attr('opacity', 0.3);
+
+svg.append('circle')
+   .attr('r', 10)
+   .attr('cx', myPlot.xMap(5))
+   .attr('cy', myPlot.yMap(8))
+   .style('fill', 'green');
+
+</script>
+</body>
