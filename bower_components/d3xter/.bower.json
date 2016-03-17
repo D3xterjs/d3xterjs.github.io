@@ -1,0 +1,39 @@
+{
+  "name": "d3xter",
+  "version": "2.0.0",
+  "homepage": "https://github.com/NathanEpstein/D3xter",
+  "authors": [
+    "Nathan Epstein (ne2210@columbia.edu)"
+  ],
+  "description": "D3 wrapper for simply creating standard charts",
+  "main": "js/lib.js",
+  "keywords": [
+    "D3",
+    "Plotting",
+    "Chart",
+    "Histogram",
+    "Scatterplot",
+    "Graphs",
+    "Bubbleplot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "d3": "~3.4.13",
+    "mocha": "~2.0.1",
+    "assert": "https://github.com/Jxck/assert",
+    "chai": "~1.9.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  },
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.0",
+    "commit": "ed9de4aa85e7b9b9059fcd845008de7ad2c7c3ec"
+  },
+  "_source": "git://github.com/NathanEpstein/d3xter.git",
+  "_target": "^2.0.0",
+  "_originalSource": "d3xter",
+  "_direct": true
+}
