@@ -153,7 +153,7 @@ var config = {
   xLab: 'Groups',
   yLab: 'Heights',
   title: 'My Bar Chart',
-  selector: 'body'
+  selector: 'body',
   height: 500,
   width: 700,
   legend: false
