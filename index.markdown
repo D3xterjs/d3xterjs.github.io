@@ -69,10 +69,10 @@ __events:__ `timeline` takes an array of objects specifying events to be include
 
 {% highlight javascript %}
 new D3xter().timeline([
-  { date: '1914-7-28', label: 'WW1' },
+  { date: '1914-07-28', label: 'WW1' },
   { date: '1939', label: 'WW2' },
-  { date: '1950-1-1', label: 'The Fifties'},
-  { date: '1950-1-1', label: 'A Date Collision'},
+  { date: '1950-01-01', label: 'The Fifties'},
+  { date: '1950-01-01', label: 'A Date Collision'},
 ]);
 {% endhighlight %}
 <iframe height='325' width='735' src="./charts/time.html"></iframe>
