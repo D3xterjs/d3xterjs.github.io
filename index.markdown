@@ -17,6 +17,7 @@ layout: default
 - [Pie Chart](#pie)
 - [Configuration](#configuration)
 - [Extension with D3](#extension)
+- [Use with Python](#python)
 
 ## Plot
 <a name="plot" />
@@ -202,5 +203,10 @@ svg.append('circle')
    .style('fill', 'green');
 {% endhighlight %}
 <iframe height='525' width='735' src="./charts/extend.html"></iframe>
+
+## Use with Python
+<a name="python" />
+
+Want to use this syntax to generate charts in Python? Check out <a href="https://github.com/D3xterjs/pydexter/">PyDexter</a>
 
 
