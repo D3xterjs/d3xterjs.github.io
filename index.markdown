@@ -208,5 +208,3 @@ svg.append('circle')
 <a name="python" />
 
 Want to use this syntax to generate charts in Python? Check out <a href="https://github.com/D3xterjs/pydexter/">PyDexter</a>!
-
-
